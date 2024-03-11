@@ -2,7 +2,9 @@
 
 ![teaser](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset/assets/6981697/c6b7dc3c-3858-499b-ae17-90da426694ea) 
 
-Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository hosts the first publicly available dataset tailored for aerial robotics operating in diverse natural landscapes across the continental United States. Our dataset comprises synchronized RGB, thermal, GPS, and IMU data, providing a comprehensive resource for researchers and practitioners in the field.
+Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository hosts the first publicly available dataset tailored for aerial robotics operating in diverse natural landscapes across the continental United States. Our dataset comprises synchronized RGB, thermal, GPS, and IMU data, providing a comprehensive resource for researchers and practitioners in the field. For further details, please see our paper: 
+
+PAPER_TITLE
 
 
 
@@ -30,7 +32,18 @@ Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository ho
 ## Dataset Download
 Coming soon!
 
-## Classes
+### Dataset Organization
+- Raw data is located at `onr-processed`
+- Annotated thermal data is located here under `labeled_thermal_singles`. Images are stored according to their capture location and trajectory id following the pattern:
+```
+labeled_thermal_singles/CAPTURE_PLACE/TRAJECTORY_ID/{masks|thermal8|thermal16}
+```
+- Annotated paired RGB-T data is located under `labeled_rgbt_pairs`. 
+
+
+## Semantic Segmentation & Image Translation
+
+### Semantic Segmentation Classes
 | Index |Class | Hex Code | Color |
 | --- | --- | --- | --- |
 | 0 | unknown | #FF2400 | <span align="center"><img src="examples/class_colors/Unknown.png" width=30px height=30px/></span> |
@@ -46,13 +59,20 @@ Coming soon!
 | 10 | vehicles | #FFF900 | <span align="center"><img src="examples/class_colors/Vehicles.png" width=30px height=30px/></span> |
 | 11 | person | #FE00AA | <span align="center"><img src="examples/class_colors/Person.png" width=30px height=30px/></span> |
 
+We typically ignore `unknown` and `background` classes.
 
-## Dataset Splits
+### Dataset Splits
 Thermal data splits are located under `caltech_aerial_thermal_dataset/splits/thermal_splits` and are subdivided into general (random), geographic (state-based and terrain-based), and temporal (sunrise vs. day vs. night) splits. 
 
 The split for RGB-T paired imagery is created from the general (random) split and is available under `caltech_aerial_thermal_dataset/splits/rgbt_splits`. There are less samples in this split due to sensor failures during some flights.
 
-## Rectification
+
+
+## Data Processing
+### ROS Bagfile Extraction
+Coming soon!
+
+### Rectification
 All images with semantic segmentation annotations are already rectified. If you want to rectify all images, some code is provided to assist you in this:
 
 To rectify raw imagery, use the `MonoRectifier` class provided in `caltech_aerial_thermal_dataset/utils/rectifier.py`. Use the appropriate calibration files provided under `calibrations/*.yaml`.
