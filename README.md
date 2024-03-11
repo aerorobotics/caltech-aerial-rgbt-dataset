@@ -1,5 +1,10 @@
 # Caltech Aerial RGB-Thermal Dataset
+
+![teaser](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset/assets/6981697/c6b7dc3c-3858-499b-ae17-90da426694ea) 
+
 Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository hosts the first publicly available dataset tailored for aerial robotics operating in diverse natural landscapes across the continental United States. Our dataset comprises synchronized RGB, thermal, GPS, and IMU data, providing a comprehensive resource for researchers and practitioners in the field.
+
+
 
 **Key Features:**
 
@@ -9,9 +14,18 @@ Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository ho
 
 - 📊 **Benchmarking**: We introduce new benchmarks for thermal and RGB-T semantic segmentation, RGB-T image translation, and visual-inertial odometry, presenting challenging tasks for evaluation and comparison.
 
-- 🌟 **Challenging Domain Shifts**: We provide splits for the data based on time and geography, enabling studies of geographic domain adaptation. Temporal splits enable new studies into better handling thermal inversion. 
+- 🌟 **Challenging Domain Shifts**: We provide splits for the data based on time and geography, enabling studies of geographic domain adaptation. Temporal splits enable new studies into better handling thermal inversion (see image below). 
 
-We invite researchers and developers to explore this dataset, contribute new insights, and advance the field of aerial robotics perception in natural environments. Your contributions are invaluable in driving innovation and progress in this exciting domain.
+
+## Dataset Capture Locations
+<p align="center">
+  <img src="https://github.com/aerorobotics/caltech-aerial-rgbt-dataset/assets/6981697/1050a823-aca9-4e45-85fd-609f3aa18d35" width="100%">
+</p>
+
+## Thermal Inversion Example
+<p align="center">
+  <img src="https://github.com/aerorobotics/caltech-aerial-rgbt-dataset/assets/6981697/11d65042-40d4-4d1d-9bb2-e430617a708c" width="100%">
+</p>
 
 ## Dataset Download
 Coming soon!
