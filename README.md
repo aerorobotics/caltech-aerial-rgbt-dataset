@@ -69,8 +69,23 @@ The split for RGB-T paired imagery is created from the general (random) split an
 
 
 ## Data Processing
-### ROS Bagfile Extraction
-Coming soon!
+
+### Dataset Summary
+COMING SOON!
+
+### Data Extraction
+#### ROS Bagfile
+The dataset is provided primarily as ROS1 rosbags. As rosbags may not be a convenient filetype for all users, extraction scripts have been provided to extract csv and jpg/png files.  Please see the readme at `/extract_data/rosbag/README.md` for more information.
+
+#### Ardupilot
+Where available, the raw onboard logs from Ardupilot have been included in the dataset.  As not all users will be able to read these directly, extraction scripts have been included as part of this repository.  Please see the readme at `/extract_data/ardupilot/README.md` for more information.
+
+### Data Streams
+#### Preferred Position Data
+COMING SOON!
+
+#### Synchronization Data
+COMING SOON!
 
 ### Rectification
 All images with semantic segmentation annotations are already rectified. If you want to rectify all images, some code is provided to assist you in this:
@@ -83,3 +98,8 @@ caltech_aerial_thermal_dataset/bash/bulk_stereo_rectify.sh
 caltech_aerial_thermal_dataset/bash/stereo_rectify.sh
 ```
 and check out the command-line arguments listed in `stereo_rectify.py`
+
+## Issues and Contributing
+If you find issues with this repo, or have code to contribute, please submit and issue and/or a PR above.
+
+## License
