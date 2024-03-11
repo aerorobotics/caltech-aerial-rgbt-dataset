@@ -1,4 +1,5 @@
-**/*.png
+!examples/*
+# **/*.png
 **/*.tiff
 **/*.tif
 **/*.TIF
@@ -12,7 +13,6 @@ foundation_models/segmentation/labeled_pairs/
 annotation_set*/
 *-dataset/*
 __pycache__/*
-!examples/*
 image_translation/tmp/*
 image_translation/translations/*
 **/*.json
