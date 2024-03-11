@@ -4,7 +4,7 @@ import glob
 
 from rosbag import Bag
 
-root_directory = '/media/matt/t7shield/ONR/2021-07-21_Beach/'
+root_directory = '/home/user/data/'
 
 bags = sorted(glob.glob(os.path.join(root_directory,"**","*.bag"), recursive=True))
 

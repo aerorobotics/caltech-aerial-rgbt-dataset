@@ -4,7 +4,7 @@
 
 Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository hosts the first publicly available dataset tailored for aerial robotics operating in diverse natural landscapes across the continental United States. Our dataset comprises synchronized RGB, thermal, GPS, and IMU data, providing a comprehensive resource for researchers and practitioners in the field. For further details, please see our paper: 
 
-PAPER_TITLE
+PAPER_TITLE + CITATON
 
 
 
