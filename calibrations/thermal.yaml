@@ -1,0 +1,21 @@
+# FLIR ADK calibration file
+image_width: 640
+image_height: 512
+camera_name: Boson640
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [511.03573247, 0.000000, 311.80346835, 0.000000, 508.22913692, 261.56701122, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.43339599, 0.18974767, -0.00146426, 0.00118333, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [511.03573247, 0.000000, 311.80346835, 0.000000, 0.000000, 508.22913692, 261.56701122, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

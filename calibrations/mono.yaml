@@ -1,0 +1,21 @@
+# EO mono calibration file
+image_width: 960
+image_height: 600
+camera_name: Blackfly
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [680.02743258, 0.000000, 481.71357122, 0.000000, 678.05966849, 301.34096164, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.14562359, 0.08979683, 0.00056497, -0.00028999, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [680.02743258, 0.000000, 481.71357122, 0.000000, 0.000000, 678.05966849, 301.34096164, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

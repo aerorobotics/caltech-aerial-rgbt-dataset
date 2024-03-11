@@ -1,0 +1,12 @@
+kentucky_river/flight3-1/thermal16/thermal-04684.tiff,kentucky_river/flight3-1/masks/pair-04684.png
+kentucky_river/flight3-1/thermal16/thermal-10416.tiff,kentucky_river/flight3-1/masks/pair-10416.png
+kentucky_river/flight2-1/thermal16/thermal-02574.tiff,kentucky_river/flight2-1/masks/pair-02574.png
+kentucky_river/flight3-1/thermal16/thermal-05032.tiff,kentucky_river/flight3-1/masks/pair-05032.png
+kentucky_river/flight3-1/thermal16/thermal-05392.tiff,kentucky_river/flight3-1/masks/pair-05392.png
+kentucky_river/flight1-1/thermal16/thermal-00900.tiff,kentucky_river/flight1-1/masks/pair-00900.png
+kentucky_river/flight3-1/thermal16/thermal-08608.tiff,kentucky_river/flight3-1/masks/pair-08608.png
+kentucky_river/flight1-1/thermal16/thermal-00360.tiff,kentucky_river/flight1-1/masks/pair-00360.png
+kentucky_river/flight3-1/thermal16/thermal-02704.tiff,kentucky_river/flight3-1/masks/pair-02704.png
+kentucky_river/flight3-1/thermal16/thermal-08428.tiff,kentucky_river/flight3-1/masks/pair-08428.png
+kentucky_river/flight3-1/thermal16/thermal-00127.tiff,kentucky_river/flight3-1/masks/pair-00127.png
+kentucky_river/flight1-1/thermal16/thermal-09206.tiff,kentucky_river/flight1-1/masks/pair-09206.png

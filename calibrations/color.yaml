@@ -1,0 +1,21 @@
+# EO color calibration file
+image_width: 960
+image_height: 600
+camera_name: Blackfly
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [680.11846194, 0.000000, 487.55963708, 0.000000, 678.07534062, 304.70978917, 0.000000, 0.000000, 1.000000]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.14364074, 0.08475157, 0.00059968, 0.00006008, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [680.11846194, 0.000000, 487.55963708, 0.000000, 0.000000, 678.07534062, 304.70978917, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]
