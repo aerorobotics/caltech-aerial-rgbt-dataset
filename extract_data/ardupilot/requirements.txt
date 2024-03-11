@@ -1,0 +1,2 @@
+# ardupilot_bin2csv requirements
+pymavlink

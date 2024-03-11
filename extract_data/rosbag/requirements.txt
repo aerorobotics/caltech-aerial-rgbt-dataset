@@ -1,0 +1,6 @@
+# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
+
+bagpy     # 0.5
+numpy>=1.20.3
+python-dateutil>=2.8.2
+opencv-python
