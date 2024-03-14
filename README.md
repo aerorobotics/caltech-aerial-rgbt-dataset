@@ -103,3 +103,4 @@ and check out the command-line arguments listed in `stereo_rectify.py`
 If you find issues with this repo, or have code to contribute, please submit and issue and/or a PR above.
 
 ## License
+The dataset is for non-commercial use only and is licensed under the terms of the Creative Commons Attribution ShareAlike 4.0 license. 
