@@ -31,7 +31,9 @@ Welcome to the Caltech Aerial RGB-Thermal dataset repository! This repository ho
 </p>
 
 ## Dataset Download
-Coming soon!
+- The dataset can be downloaded here: [https://data.caltech.edu/records/cks6g-ps927](https://data.caltech.edu/records/cks6g-ps927).
+- The labeled subset can be directly downloaded.
+- The raw data must be downloaded from the S3 bucket (follow instructions in the link). 
 
 ### Dataset Organization
 - Raw data is located at `onr-processed`
