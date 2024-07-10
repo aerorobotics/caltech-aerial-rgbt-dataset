@@ -1,4 +1,4 @@
-We have 12 sequences for SLAM benchmearking. The calibration parameters including the instrinsics and extrinsics betweens sensors can be found in the "configs" folder, which are also the config files to run [VINS_Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion).  The ground-truth poses are in [TUM format ](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) and saved in the "ground_truth" folder. In the ground-truth poses, the start and end timestamps are there. We also list the start and duration time when playing the rosbag data:
+We have 12 sequences for SLAM benchmarking. The calibration parameters including the instrinsics and extrinsics betweens sensors can be found in the `configs` folder, which are also the config files to run [VINS_Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion).  The ground-truth poses are in [TUM format ](https://cvg.cit.tum.de/data/datasets/rgbd-dataset) and saved in the "ground_truth" folder. In the ground-truth poses, the start and end timestamps are there. We also list the start and duration time when playing the rosbag data:
 
 | Bag_Name                                   | bag_sart | bag_durr |
 | ------------------------------------------ | -------- | -------- |
@@ -16,8 +16,9 @@ We have 12 sequences for SLAM benchmearking. The calibration parameters includin
 | 2023-03-XX_Duck/2023-03-22-14-31-06        | 40       | 40       |
 
 To play the data with rosbag, run:
+```
 rosbag play -s $(arg bag_start) -u $(arg bag_durr)  xxx.bag
-
+```
 
 
 
