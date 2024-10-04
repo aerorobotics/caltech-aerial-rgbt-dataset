@@ -1,4 +1,4 @@
-# CART: Caltech Aerial RGB-Thermal Dataset in the Wild
+# Caltech Aerial RGB-Thermal Dataset in the Wild
 **[ArXiv](https://arxiv.org/abs/2403.08997)**
 
 ![teaser](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset/assets/6981697/c6b7dc3c-3858-499b-ae17-90da426694ea) 
