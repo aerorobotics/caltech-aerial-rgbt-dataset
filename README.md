@@ -1,5 +1,5 @@
 # Caltech Aerial RGB-Thermal Dataset in the Wild
-**[ArXiv](https://arxiv.org/abs/2403.08997)**
+**[ECCV 2024](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08026.pdf)** | **[ArXiv](https://arxiv.org/abs/2403.08997)**
 
 ![teaser](https://github.com/aerorobotics/caltech-aerial-rgbt-dataset/assets/6981697/c6b7dc3c-3858-499b-ae17-90da426694ea) 
 
@@ -107,3 +107,16 @@ If you find issues with this repo, or have code to contribute, please submit and
 
 ## License
 The dataset is for non-commercial use only and is licensed under the terms of the Creative Commons Attribution ShareAlike 4.0 license. 
+
+## Citation
+If you found our work useful, please cite
+```
+@inproceedings{lee2025caltech,
+  title={Caltech Aerial RGB-Thermal Dataset in the Wild},
+  author={Lee, Connor and Anderson, Matthew and Ranganathan, Nikhil and Zuo, Xingxing and Do, Kevin and Gkioxari, Georgia and Chung, Soon-Jo},
+  booktitle={European Conference on Computer Vision},
+  pages={236--256},
+  year={2025},
+  organization={Springer}
+}
+```
